@@ -1,6 +1,11 @@
+html{
+    font-size: 62,5%;
+}
+
 body{
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 1.6rem;
 }
 .cabecalho{
     padding: 30px 15px;
@@ -8,7 +13,7 @@ body{
 }
 
 .cabecalho .logo{
-    background: url(../images/logo.jpg) center center
+    background: url(images/images/logo.jpg) center center
     no-repeat;
     width: 85px;
     height: 85px;
@@ -31,7 +36,7 @@ body{
     font-weight: bold;
 }
 .painel{
-    background: url(../images/painel.jpg) center center
+    background: url(images/images/painel.jpg) center center
     no-repeat;
     height: 600px;
 }
@@ -73,31 +78,31 @@ width: 450px;
     float: left;
 }
 .ladrilho .grande{
-    background: url(../images/4.jpg) center center
+    background: url(images/images/4.jpg) center center
     no-repeat;
     height: 600px;
     width: 50%;
 }
 .ladrilho .pequeno{
-    background: url(../images/3.jpg) center center
+    background: url(images/images/3.jpg) center center
     no-repeat;
     height: 300px;
     width: 25%;
 }
 .ladrilho .pequeno.grao{
-    background: url(../images/2.jpg) center center
+    background: url(images/images/2.jpg) center center
     no-repeat;
     height: 300px;
     width: 25%;
 }
 .ladrilho .medio{
-    background: url(../images/1.jpg) center center
+    background: url(images/images/1.jpg) center center
     no-repeat;
     height: 300px;
     width: 50%;
 }
 .contato{
-    background: url(../images/fundo-contato.jpg)
+    background: url(images/images/fundo-contato.jpg)
     center center no-repeat;
     color: white;
     height: 600px;
@@ -118,7 +123,7 @@ width: 450px;
     left: 50%;
 }
 .rodape{
-    background:url(/src/images/fundo-rodape.jpg)
+    background:url(images/images/fundo-rodape.jpg)
     center center no-repeat;
     padding: 35px 30px;
     background-size: cover;
@@ -149,4 +154,8 @@ width: 450px;
 }
 .rodape .conteudo-de-baixo{
     margin-top: 40px;
+}
+.rodape ul{
+    float: right;
+    margin-top: 30px;
 }
